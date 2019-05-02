@@ -1,0 +1,18 @@
+@charset "utf-8";
+@import "partial/settings";
+
+/* Styles.scss */
+.o-page {
+    font-family: 'myfont';
+    line-height: 1.6;
+    &__inner {
+        max-width: 1180px;
+        height: 100vh;
+        margin: auto;
+        color: map-get($nord, nord0);
+        background-color: map-get($nord, nord8);
+        & > * {
+            padding: 1.5rem;
+        }
+    }
+}
