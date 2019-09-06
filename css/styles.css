@@ -1,6 +1,4 @@
 @charset "UTF-8";
-/* An arctic north-bluish color palette. 
-   See: https://www.nordtheme.com */
 /* _Settings.scss */
 html, body,
 h1, h2, h3, h4, h5, h6,
@@ -41,8 +39,8 @@ html {
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 a, a:visited {
